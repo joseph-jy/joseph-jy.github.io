@@ -14,7 +14,11 @@ header_pages:
   - index.md
   - about.md
 footer: "follow me"
-theme: jekyll-theme-console
-remote_theme: b2a3e8/jekyll-theme-console
+  #theme: no-style-please
+remote_theme: riggraz/no-style-please
+
+plugins:
+  - jekyll-remote-theme
+
 
 
