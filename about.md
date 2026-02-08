@@ -1,10 +1,9 @@
 ---
 layout: page
-title: /about
+title: About
 permalink: /about/
 ---
 
 # 누구시죠?
 
  잘 되어갑니다.
-

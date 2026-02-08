@@ -1,25 +1,28 @@
 title: joseph's blog
 email: sidnancy81@gmail.com
-description: >- 
+description: >-
   블로그 설명
-baseurl: "" 
-url: "https://joseph-jy.github.io" 
+baseurl: ""
+url: "https://joseph-jy.github.io"
 twitter_username: cooljoseph
-github_username: joseph-jy 
+github_username: joseph-jy
 
 repository: joseph-jy/joseph-jy.github.io
 
-header_pages:
-  - index.md
-  - about.md
-style: light
-  #listen_for_clients_preferred_style: true # false (default) or true
-footer: "follow me"
+remote_theme: riggraz/no-style-please
 
-remote_theme: b2a3e8/jekyll-theme-console
+permalink: /:title/
+
+theme_config:
+  appearance: auto
+  date_format: "%Y-%m-%d"
+  show_description: true
+  no_b_hierarchies: false
+
+sass:
+  style: compressed
 
 plugins:
   - jekyll-remote-theme
-
-
-
+  - jekyll-feed
+  - jekyll-seo-tag
